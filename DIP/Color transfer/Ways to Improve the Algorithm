@@ -1,3 +1,5 @@
+One can also perform the same operation in YCrCb color space.
+
 While the Reinhard et al. algorithm is extremely fast, there is one particular downside — it relies on global color statistics, and thus large regions with similar pixel intensities values can dramatically influence the mean (and thus the overall color transfer).
 
 To remedy this problem, we can look at two solutions:
