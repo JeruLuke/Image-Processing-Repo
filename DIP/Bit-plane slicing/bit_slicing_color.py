@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 
-src = 'C:/Users/524316/Desktop/Plant/'
+#--- Bit plane slicing for 3-channel images ------
+src = 'C:/Users/Desktop/Plant/'
 
 img = cv2.imread(src + 'Charlock/0a7e1ca41.png')
 img_resized = cv2.resize(img, (300, 300))
